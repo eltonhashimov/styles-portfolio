@@ -1,0 +1,385 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+/* grid start>>>>>>>>>>>>>>>>>>>>>>>> */
+.container {
+    width: 80%;
+    margin: auto;
+    height: 100%;
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.just-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+/* grid finish>>>>>>>>>>>>>>>>>>>>>> */
+
+/* sect1 start>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+#sect1 {
+    width: 100%;
+    height: 100vh;
+}
+
+.sect-text2 {
+    background-position: center center;
+    background-size: cover;
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg);
+}
+
+#sect1 .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#sect1 .text-box {
+    text-align: center;
+    width: 650px;
+}
+
+#sect1 .text-box h1 {
+    font-size: 70px;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#sect1 .text-box strong {
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#sect1 .text-box a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin-top: 40px;
+    padding: 22px 28px;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #1D809F;
+
+}
+
+.icon-box {
+    background-color: #343a409e;
+    border-radius: 7px;
+    right: 10px;
+    top: 10px;
+    position: fixed;
+    padding: 17px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #343a40;
+    }
+
+    i {
+        color: #fff;
+    }
+}
+
+/* sect1 FINISH>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+
+/* sect2 start>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+#sect2 {
+    padding: 8% 5%;
+
+
+    .text-box {
+        text-align: center;
+
+        h1 {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+            font-size: 26px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            font-weight: lighter;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    }
+}
+
+#sect2 .text-box button {
+    margin-top: 40px;
+    padding: 22px 28px;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #000000;
+}
+
+#sect2 .text-box button a {
+    color: #fff;
+}
+
+#sect2 .text-box a {
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+/* sect 2 finish>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+/* sect 3 start>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+#sect3 {
+    width: 100%;
+    background-color: #1D809F;
+    padding: 5%;
+
+    .text-head {
+        margin-bottom: 50px;
+        text-align: center;
+
+        p {
+            color: #ECB807;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            color: #fff;
+            font-size: 40px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+        }
+    }
+
+    .text-bottom {
+
+        .text-icon-box {
+            width: 100px;
+            height: 100px;
+            background-color: #fff;
+            border-radius: 100%;
+            display: flex;
+            align-items: center;
+            margin: 20px auto;
+            justify-content: center;
+
+            i {
+                font-size: 30px;
+
+            }
+        }
+
+        .box {
+            width: 25%;
+            text-align: center;
+
+            .icon-text {
+                h1 {
+                    color: #fff;
+                    font-weight: bold;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-size: 20px;
+                    margin-bottom: 20px;
+                }
+
+                p {
+                    color: #fff;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-size: 13px;
+                }
+            }
+
+        }
+    }
+}
+
+/* sect3 finish>?>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+/* sect4 start>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.sect4 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-callout.jpg);
+}
+
+/* sect4 finish>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+
+#sect5 {
+    width: 100%;
+    padding: 5%;
+
+    .sect5-head {
+        margin-bottom: 50px;
+        text-align: center;
+
+        p {
+            color: #ECB807;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            font-size: 40px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+        }
+    }
+
+    .sect5-bottom {
+
+        .items {
+            width: 50%;
+            position: relative;
+            cursor: pointer;
+            transition: 0.3s ease-in-out;
+            clip-path: inset(0);
+
+            &:hover {
+                clip-path: inset(30px);
+
+                .overlay {
+                    background-color: #17677fc8;
+
+                }
+            }
+
+            .img-box {
+                width: 100%;
+                height: 100%;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .overlay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                transition: 0.3s ease-in-out;
+                padding: 50px;
+                display: flex;
+                align-items: flex-end;
+                height: 100%;
+
+                .text-box {
+                    color: #fff;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+                    h1 {
+                        font-size: 10px;
+                        margin-bottom: 20px;
+                    }
+
+                    p {
+                        font-size: 15px;
+                        font-weight: lighter;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#sect6{
+    background-color: #1D809F;
+    text-align: center;
+    padding: 7%;
+    h1{
+        margin-bottom: 30px;
+        color: #fff;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 23px;
+    }
+
+    button{
+        width: 130px;
+        height: 65px;
+        border-radius: 5px;
+        border: none;
+        margin: 0px 10px;
+        cursor: pointer;
+        a{
+            text-decoration: none;
+            font-size: 16px;
+            color: black;
+        }
+    }
+
+    .btn1{
+        &:hover{
+            background-color: rgb(196, 194, 194);
+        }
+    }
+
+    .btn2{
+        background-color: #212529;
+        a{
+            color: #fff;
+        }
+        &:hover{
+            background-color:#3f464e;
+        }
+    }
+}
+
+#sect7{
+    width: 100%;
+    height: 70vh;
+}
+
+
+
+#footer{
+    padding: 5%;
+    text-align: center;
+
+
+    .icon-foot-box{
+
+        .icon-foot{
+            background-color: #1D809F;
+            color: #fff;
+            height: 60px;
+            width: 60px;
+            margin: 0px 10px;
+            display: flex;
+            align-items: center;
+            justify-content:center ;
+            border-radius: 50%;
+            margin-bottom: 50px;
+            i{
+                font-size: 23px;
+            }
+        }
+    }
+
+    span{
+        color:  #6c757d;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 11px;
+    }
+}
